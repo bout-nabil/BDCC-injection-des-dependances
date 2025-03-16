@@ -7,4 +7,5 @@ public class DaoImpl implements IDao{
         double t = 34;
         return t;
     }
+
 }
