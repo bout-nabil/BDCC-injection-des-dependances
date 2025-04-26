@@ -48,9 +48,11 @@ java -jar target/ton-projet.jar
 
 ## 📄 Exemple de configuration XML
 Copy code
+```xml
 <beans>
     <bean id="dao" class="com.example.DaoImpl"/>
     <bean id="metier" class="com.example.MetierImpl">
         <property name="dao" ref="dao"/>
     </bean>
 </beans>
+```
